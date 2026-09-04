@@ -18,6 +18,8 @@ Importantly, RagQL supports both **local** and **remote** LLM/embedding backends
 
 ## Internals
 
+The [Design and System Architecture](DSA.md) describes the intended context-assisted, read-only SQLite query path, including zero-key CLI/MCP access for coding agents, enforceable budgets, and Caveman-compatible compact outcomes.
+
 ```mermaid
 flowchart TD
   subgraph Startup

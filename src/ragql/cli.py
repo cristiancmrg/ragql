@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 # src/ragql/cli.py
 import argparse
 import pathlib

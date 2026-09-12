@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 # src/ragql/__init__.py
 """
 ragql – Retrieval-Augmented Generation Query Language

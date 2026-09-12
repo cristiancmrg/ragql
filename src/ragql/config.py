@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 # src/ragql/config.py
 from __future__ import annotations
 from pathlib import Path

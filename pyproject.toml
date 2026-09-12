@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "ragql"
-version = "0.1.0"
+version = "0.3.0"
 description = "This project implements a local-first RAG chat system that reads and processes various text-based log files. It splits the content into manageable chunks, generates embeddings using Ollama or OpenAI, and allows users to interactively query the logs for specific information. The application features a customizable response format and supports configuration for user preferences."
 authors = ["Cristian Camargo Filho <ccf@cdone.com.br>"]
+license = "MPL-2.0"
 readme = "README.md"
 packages = [
   { include = "ragql", from = "src" },
+]
+include = [
+  { path = "COPYRIGHT", format = ["sdist", "wheel"] },
 ]
 
 [tool.poetry.dependencies]

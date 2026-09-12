@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 # loaders/sqlite_events.py
 import sqlite3
 from pathlib import Path

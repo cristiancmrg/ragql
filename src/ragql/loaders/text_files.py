@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 # loaders/text_files.py
 from pathlib import Path
 from typing import Iterable, Tuple

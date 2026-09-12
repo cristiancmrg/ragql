@@ -257,3 +257,16 @@ Additionally, RagQL is structured in a modular way (with separate components for
 * [Pandas Library](https://pandas.pydata.org/) – Official site for pandas, used in RagQL for data handling (especially with `.db` files).
 * [python-dotenv](https://github.com/theskumar/python-dotenv) – GitHub repository for python-dotenv, which RagQL uses to manage environment variables from a file.
 * [Python Argparse](https://docs.python.org/3/library/argparse.html) – Documentation for the argparse library used to build the CLI interface.
+
+## License
+
+RagQL version 0.3.0 and later is licensed under the
+[Mozilla Public License 2.0](LICENSE). Copyright is held by Cristian Camargo
+Filho personally.
+
+The MPL requires distributed modifications to covered files to remain
+available as MPL-licensed source. It permits commercial use and larger works
+whose separate files use other licenses.
+
+Releases through version 0.2.0 are not retroactively relicensed. See
+[NOTICE.md](NOTICE.md) for the exact boundary.

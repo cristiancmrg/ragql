@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 from ragql.storage import ChunkStore, VectorStore
 from ragql.config import Settings
 import numpy as np

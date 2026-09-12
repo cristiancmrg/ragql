@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 from pathlib import Path
 from typing import Iterable, Tuple
 import json
@@ -15,4 +16,3 @@ def load(path: Path) -> Iterable[Tuple[str, str]]:
     except Exception:
         pass  # not valid JSON → keep raw
     yield str(path), text
-

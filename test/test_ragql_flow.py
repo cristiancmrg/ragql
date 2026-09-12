@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 # test/test_ragql_flow.py
 from pathlib import Path
 import numpy as np
